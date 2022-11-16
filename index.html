@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEGE WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .click{ color: rgb(229, 236, 242);}
+    </style>
+
+    <style>
+        .click1{ color: rgb(229, 236, 242);}
+    </style>
+
+    <style>
+        .click2{ color: rgb(229, 236, 242);}
+    </style>
+
+    <style>
+        .click3{ color: rgb(229, 236, 242);}
+    </style>
+
+    <style>
+        .click4{ color: rgb(229, 236, 242);}
+    </style>
+
+</head>
+<body>
+   <div class="overlay"></div>
+
+    <!----Navigation Bar start-->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="images/SIEGE LOGO.png" class="brand-img" alt="">
+            <h1>SIEGE</h1>
+            <div class="widgetBar">
+                <div class="widget_input">
+                    <img src="images/search icon.png" height="20" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <nav>
+                <div class="nav-link">
+                   <ul>
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="AboutUsPage.html">About Us</a></li>
+                    <img id="addpost" src="/images/add icon.png" class="add" style="filter: invert(100%) sepia(0%) saturate(0%)
+                     hue-rotate(93deg) brightness(103%) contrast(103%);">
+                       
+                   </ul>
+               </div>
+            </nav>
+        </div>
+    </nav>
+    <!----Navigation Bar start-->
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+
+                  <!--image slider start-->
+                <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="images/cyberpunknews.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/GoRagnarockNews.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/sonic_trailerpreorder.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/Riot-Games-MMORPG-teaser-image.png" alt="">
+          </div>
+          
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+
+
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+                </div>
+      <!--image slider end-->
+                      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+                   </script>
+                   
+
+                 
+                
+       <div class="post">
+            <div class="info">
+                <div class="user">
+                    <div class="profile-pic">
+                      <img src="images/sonic-profile.jpg"  
+                      alt="">
+                        <div class="post_header">
+                            <h3>
+                                Sonic the Hedgehog | SEGA®
+                            </h3>
+                            
+                        </div>
+                    <div class="post_headerDescrition">
+                        <p>
+                            There is still time to pre-order Frontiers for exclusive content
+                            (including Digital)!
+                        </p>
+                    </div>
+                    </div>
+                  
+                </div>
+                <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+                hue-rotate(93deg) brightness(103%) contrast(103%);">
+            </div> 
+            <img src="images/SonicNews.jfif" class="post-image" alt="">
+        </div>
+
+        <div class="spacing"></div>
+
+        <div class="post">
+          <div class="info">
+              <div class="user">
+                  <div class="profile-pic">
+                    <img src="images/splatoonman64profile.jpg"  
+                    alt="">
+                      <div class="post_header">
+                          <h3>
+                              SplatMAN64
+                          </h3>
+                          
+                      </div>
+                  <div class="post_headerDescrition">
+                      <p>
+                          Splatoon 3 Tips and tricks how to use splatana stamper
+                      </p>
+                  </div>
+                  </div>
+                  <div class="button_box">
+                    <div class="boxtest">
+                    <a href="siegepost.html">
+                    <button class="lol">Read more</button>
+                    </a>
+                    </div>
+                  </div>
+                
+              </div>
+
+              <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+              hue-rotate(93deg) brightness(103%) contrast(103%);">
+          </div> 
+
+
+          <img src="images/splatoon3_post.jfif" class="post-image" alt="">
+      </div>
+
+      <div class="spacing"></div>
+
+      <div class="post">
+        <div class="info">
+            <div class="user">
+                <div class="profile-pic">
+                  <img src="images/SONY_SANTAMONICA.jpg"  
+                  alt="">
+                    <div class="post_header">
+                        <h3>
+                            SONY SANTA MONICA STUDIOS™
+                        </h3>
+                        
+                    </div>
+                <div class="post_headerDescrition">
+                    <p>
+                        God of War Ragnarok Digital Deluxe Edition Release.
+                    </p>
+                </div>
+                </div>
+              
+            </div>
+            <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+            hue-rotate(93deg) brightness(103%) contrast(103%);">
+        </div> 
+        <img src="images/godOfWarRagnarock_preorder.png" class="post-image" alt="">
+    </div>
+
+    <div class="spacing"></div>
+
+
+    <div class="post">
+        <div class="info">
+            <div class="user">
+                <div class="profile-pic">
+                  <img src="images/gensihinru_profile.jpg"  
+                  alt="">
+                    <div class="post_header">
+                        <h3>
+                            Haru_Liyue
+                        </h3>
+                        
+                    </div>
+                <div class="post_headerDescrition">
+                    <p>
+                        GENSHIN IMPACT VERSION 3.2 NAHIDA GUIDE
+                    </p>
+                </div>
+                </div>
+                <div class="button_box">
+                  <div class="boxtest">
+                  <a href="siegepost copy.html">
+                  <button class="lol">Read more</button>
+                  </a>
+                  </div>
+                </div>
+              
+            </div>
+
+            <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+            hue-rotate(93deg) brightness(103%) contrast(103%);">
+        </div> 
+
+
+        <img src="images/genshin_Mainpost.jpg" class="post-image" alt="">
+    </div>
+
+    <div class="spacing"></div>
+
+
+
+    <div class="post">
+        <div class="info">
+            <div class="user">
+                <div class="profile-pic">
+                  <img src="images/fatalis_pfp.png"  
+                  alt="">
+                    <div class="post_header">
+                        <h3>
+                            MHfatalis
+                        </h3>
+                        
+                    </div>
+                <div class="post_headerDescrition">
+                    <p>
+                        Monster Hunter Rise: Sunbreak Review
+                    </p>
+                </div>
+                </div>
+                <div class="button_box">
+                  <div class="boxtest">
+                  <a href="siegepost copy 2.html">
+                  <button class="lol">Read more</button>
+                  </a>
+                  </div>
+                </div>
+              
+            </div>
+
+            <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+            hue-rotate(93deg) brightness(103%) contrast(103%);">
+        </div> 
+
+
+        <img src="images/new_MHrise_Monsterpost.jfif"  class="post-image" alt="">
+    </div>
+
+    <div class="spacing"></div>
+
+
+    <div class="post">
+        <div class="info">
+            <div class="user">
+                <div class="profile-pic">
+                  <img src="images/Cult-of-the-Lambbbbb.jpg"  
+                  alt="">
+                    <div class="post_header">
+                        <h3>
+                            LAMBsam
+                        </h3>
+                        
+                    </div>
+                <div class="post_headerDescrition">
+                    <p>
+                        Combat tips and tricks in Cult of the Lamb
+                    </p>
+                </div>
+                </div>
+                <div class="button_box">
+                  <div class="boxtest">
+                  <a href="siegepost copy 3.html">
+                  <button class="lol">Read more</button>
+                  </a>
+                  </div>
+                </div>
+              
+            </div>
+
+            <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+            hue-rotate(93deg) brightness(103%) contrast(103%);">
+        </div> 
+
+
+        <img src="images/cult_of_the_lamb_Post.jpg"  class="post-image" alt="">
+    </div>
+
+    <div class="spacing"></div>
+
+
+<div class="post">
+  <div class="info">
+      <div class="user">
+          <div class="profile-pic">
+            <img src="images/riot-logo-white-red.png"  
+            alt="">
+              <div class="post_header">
+                  <h3>
+                      Riot Games™
+                  </h3>
+                  
+              </div>
+          <div class="post_headerDescrition">
+              <p>
+                Valorant 5.08 Patch Notes, Episode 5 Act 3 Update Out now!
+              </p>
+          </div>
+          </div>
+        
+      </div>
+      <img src="images/option icon.png" class="options" alt="" style="filter: invert(100%) sepia(0%) saturate(0%)
+      hue-rotate(93deg) brightness(103%) contrast(103%);">
+  </div> 
+  <img src="images/Valorant-5-08-Patch-Notes-Episode-5-Act-3-Update_Patchnote.jpg" class="post-image" alt="">
+</div>
+
+
+<div class="spacing"></div>
+
+    </div>
+
+            
+            <div class="right-col">
+            <div class="boxfprof">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="images/user_pfp1.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">TESTMANBOB</p>
+                        <p class="sub-text">username</p>
+                    </div>
+                </div>
+
+            <div class="boxfFollow">
+                <div class="box-text">
+                    <p class="trend-text">Trending Blogs</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <a href="siegepost.html">
+                            <img src="images/splatoonman64profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="username">SplatMAN64</p>
+                        <p class="sub-text">Slatoon 3</p>
+                    </div>
+                    <button id="p" class="action-btn" onclick="toggleClass()">Follow</button>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <a href="siegepost copy 3.html">
+                        <img src="images/Cult-of-the-Lamb.jpg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="username">LAMBsam</p>
+                        <p class="sub-text">Cult of the Lamb</p>
+                    </div>
+                    <button id="b" class="action-btn" onclick="toggle()">Follow</button>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="images/cyberPunk 2077.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">David2000</p>
+                        <p class="sub-text">Cyberpunk2077</p>
+                    </div>
+                    <button id="c" class="action-btn" onclick="toggle1()">Follow</button>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="images/valorant icon.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">ValoMeister</p>
+                        <p class="sub-text">Valorant</p>
+                    </div>
+                    <button id="d" class="action-btn" onclick="toggle2()">Follow</button>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="images/stray_icon.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">StrayMonger</p>
+                        <p class="sub-text">Stray</p>
+                    </div>
+                    <button id="e" class="action-btn" onclick="toggle3()">Follow</button>
+                </div>
+
+                <script>
+                    function toggleClass(){
+                        const button = document.getElementById('p');
+                        p.classList.toggle('click');
+                    };
+                </script>
+
+                <script>
+                    function toggle(){
+                        const button = document.getElementById('b');
+                        b.classList.toggle('click1');
+                    };
+                </script>
+
+                <script>
+                    function toggle1(){
+                        const button = document.getElementById('c');
+                        c.classList.toggle('click2');
+                    };
+                </script>
+
+                <script>
+                    function toggle2(){
+                        const button = document.getElementById('d');
+                        d.classList.toggle('click3');
+                    };
+                </script>
+
+                <script>
+                    function toggle3(){
+                        const button = document.getElementById('e');
+                        e.classList.toggle('click4');
+                    };
+                </script>
+
+            </div>
+
+
+            </div>
+
+            </div>
+
+            </div>
+        </section>
+        <div class="bottom-section">
+            <div class="header_bottomf">
+                <img src="images/gem_Siege.png" style="filter: invert(66%) sepia(8%) saturate(1642%)
+                hue-rotate(149deg) brightness(87%) contrast(89%);">
+                <h3>SIEGE.COM</h3>
+            </div>
+            <div class="bottom_layer">
+                <p>Made by Gatmaitan, Macapagal. Bondoc <br> |Uhci| final major requirement|</p>
+            </div>
+        </div>
+    </section>
+
+<div class="bg-model">
+    <div class="model-content">
+        <div class="top_border_postbox">
+            <div class="close">
+                <img src="images/add icon.png" style="filter: invert(100%) sepia(0%) saturate(0%)
+                hue-rotate(93deg) brightness(103%) contrast(103%);">
+            </div>
+
+        <div class="wrapperr">
+            <div class="input-box">
+                <div class="twee-area">
+                    <span class="placeholdering">Care to Share?</span>
+                    <div class="input editable" contenteditable="true"></div> 
+                    <div class="input readonly" contenteditable="true"></div> 
+                </div>
+                <div class="bottom">
+                    <ul class="icons">
+                        <img src="images/addphoto.png" width="25px">
+                        <img src="images/addpoll.png" width="25px">
+                        <img src="images/editpost.png" width="25px">
+                    </ul>
+                    <div class="content">
+                        <span class="countering">10000</span>
+                        <button class="buttonpost">post</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   
+<script>
+    document.getElementById('addpost').addEventListener('click',
+    function() {
+        document.querySelector('.bg-model').style.display = 'flex';
+    });
+</script>
+
+<script>
+    document.querySelector('.close').addEventListener('click',
+    function() {
+        document.querySelector('.bg-model').style.display='none';
+    });
+</script>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
